@@ -69,3 +69,36 @@ console.log(tiktokUser.hasOwnProperty('isLoggedIn'));
 console.log(tiktokUser.hasOwnProperty('isLogged'));
 
 
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Destructuring an object
+
+const course = {
+  coursename: "JS in hindi",
+  price: "999",
+  courseInstructor: "hitesh",
+}
+
+// course.courseInstructor
+
+const { courseInstructor } = course;
+console.log(courseInstructor);
+const { coursename: cname } = course;
+console.log(cname);
+
+// const navbar = ({company}) => {
+
+// }
+// navbar(company = "aniket")
+
+// {
+//  " name": "hitesh",
+//   "coursename ": 'js in hindi',
+//   "price":'free'
+// }
+
+[
+  {},
+  {},
+  {},
+]
