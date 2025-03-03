@@ -39,36 +39,34 @@ console.log(obj3);
 const users = [
   {
     id: 1,
-    email : 'a@gmail.com', 
+    email: "a@gmail.com",
   },
   {
     id: 2,
-    email : 'b@gmail.com', 
+    email: "b@gmail.com",
   },
   {
     id: 3,
-    email : 'c@gmail.com', 
+    email: "c@gmail.com",
   },
   {
     id: 4,
-    email : 'd@gmail.com', 
+    email: "d@gmail.com",
   },
   {
     id: 5,
-    email : 'e@gmail.com', 
-  }
-]
+    email: "e@gmail.com",
+  },
+];
 console.log(users[0].id);
 
 console.log(tiktokUser);
-console.log(Object.keys(tiktokUser));           //returns an array consisting of all keys
-console.log(Object.values(tiktokUser));         //returns an array consisting of all values
-console.log(Object.entries(tiktokUser));        //returns an array of pairs of key value pairs
+console.log(Object.keys(tiktokUser)); //returns an array consisting of all keys
+console.log(Object.values(tiktokUser)); //returns an array consisting of all values
+console.log(Object.entries(tiktokUser)); //returns an array of pairs of key value pairs
 
-console.log(tiktokUser.hasOwnProperty('isLoggedIn'));
-console.log(tiktokUser.hasOwnProperty('isLogged'));
-
-
+console.log(tiktokUser.hasOwnProperty("isLoggedIn"));
+console.log(tiktokUser.hasOwnProperty("isLogged"));
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Destructuring an object
@@ -77,7 +75,7 @@ const course = {
   coursename: "JS in hindi",
   price: "999",
   courseInstructor: "hitesh",
-}
+};
 
 // course.courseInstructor
 
@@ -97,8 +95,4 @@ console.log(cname);
 //   "price":'free'
 // }
 
-[
-  {},
-  {},
-  {},
-]
+[{}, {}, {}];
