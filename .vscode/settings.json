@@ -6,5 +6,6 @@
   "workbench.colorTheme": "Aura Dark",
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
-  "prettier.tabWidth": 2
+  "prettier.tabWidth": 2,
+  "editor.tabSize": 2
 }
