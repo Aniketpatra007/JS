@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.colorTheme": "Aura Dark",
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.tabWidth": 2
+}
