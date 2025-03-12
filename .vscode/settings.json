@@ -7,5 +7,6 @@
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
   "prettier.tabWidth": 2,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "terminal.integrated.cursorStyle": "line"
 }
