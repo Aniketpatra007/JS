@@ -9,7 +9,8 @@
       "extensions": [
         "esbenp.prettier-vscode",
         "DaltonMenezes.aura-theme",
-        "ms-vscode.live-server"
+        "ms-vscode.live-server",
+        "bradlc.vscode-tailwindcss"
       ],
       "settings": {
         "editor.formatOnSave": true,
